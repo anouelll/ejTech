@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="fr"><head> <link rel="icon" href="/logo.ico" type="image/x-icon"> <meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>EJ Tech | Conseil &amp; Ingénierie Informatique</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-container":"#86a2dc","primary-container":"#17376b","error-container":"#ffdad6","on-secondary-fixed":"#001c39","background":"#f8f9ff","secondary-fixed":"#d3e3ff","on-secondary-fixed-variant":"#004883","outline":"#747780","outline-variant":"#c4c6d1","surface-container-low":"#eff4ff","on-surface":"#121c2a","on-secondary":"#ffffff","primary-fixed-dim":"#adc6ff","on-error":"#ffffff","inverse-primary":"#adc6ff","primary-fixed":"#d8e2ff","tertiary-container":"#004127","surface-container-lowest":"#ffffff","on-tertiary":"#ffffff","secondary":"#1860a5","on-error-container":"#93000a","on-primary-fixed":"#001a41","error":"#ba1a1a","on-background":"#121c2a","surface-bright":"#f8f9ff","on-primary-fixed-variant":"#28467b","surface-container":"#e6eeff","surface-container-high":"#dee9fc","secondary-fixed-dim":"#a3c9ff","on-surface-variant":"#44474f","on-tertiary-fixed-variant":"#005232","inverse-on-surface":"#eaf1ff","surface-container-highest":"#d9e3f6","inverse-surface":"#27313f","surface-variant":"#d9e3f6","tertiary-fixed":"#8df8bd","on-secondary-container":"#00447d","on-tertiary-fixed":"#002112","surface":"#f8f9ff","on-tertiary-container":"#49b47f","primary":"#00214f","surface-tint":"#425e94","secondary-container":"#7ab3fe","surface-dim":"#d0dbed","tertiary":"#002917","tertiary-fixed-dim":"#71dba2","on-primary":"#ffffff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-desktop":"3rem","gutter":"1.5rem","space-3xl":"6rem","margin-tablet":"2rem","margin":"1rem","space-2xl":"4rem","space-xs":"0.25rem","space-sm":"0.5rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2.5rem","gutter-desktop":"2rem"},fontFamily:{"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"code":["JetBrains Mono"],"headline-xl":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-sm":["Inter"]},fontSize:{"headline-sm":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.02em","fontWeight":"700"}],"display-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"800"}],"code":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"500"}],"headline-xl":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.025em","fontWeight":"700"}],"display":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.03em","fontWeight":"800"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"headline-lg":["2rem",{"lineHeight":"2.5rem","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-md":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.015em","fontWeight":"600"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(23,55,107,0.06)]"><div class="h-20 max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group focus:outline-none focus-visible:ring-2 focus-visible:ring-secondary" data-path="accueil" href="#"><img alt="Logo EJ Tech" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WxdZAgwJbs4crpXXQuzhMtzc5NN2Iw0_sx-2UBzsJR_EFGIst1GYfHY23Bmy6b_DaGseWOmD61GL_n7eNe6JwgCkCyTZTcwY2GdIG5g1rhVN126wm0wITWUDD26d4X5ZYFHCMEA4AFiE7YdTKY-v0b6cjJ6UsXNnmQdDJ5-Ltz3uzLAvrRRjMyehyZYmD86WiczslCUnBtfIj9uSDAk-nOIFbWDg3W95oYJaTyfM9IAtbSU6RV8KkSCg7X"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">EJ Tech</span><span class="font-label-sm text-label-sm text-on-surface-variant hidden sm:inline-block">Conseil &amp; Ingénierie</span></div></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#services">Services</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="methode" href="#methode">Méthode</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="pourquoi-ej-tech" href="#avantages">Pourquoi EJ Tech</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="technologies" href="#technologies">Technologies</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="a-propos" href="#a-propos">À propos</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="faq" href="#faq">FAQ</a></nav><div class="flex items-center gap-space-md"><div class="inline-flex items-center bg-surface-container p-space-xs rounded-full shadow-[0_1px_3px_rgba(23,55,107,0.04)]"><button class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-lowest text-primary shadow-[0_1px_2px_rgba(23,55,107,0.06)] hover:text-primary transition-all focus:outline-none" onclick="document.documentElement.dir='ltr';document.documentElement.lang='fr';" type="button">FR</button><button class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-all focus:outline-none" onclick="document.documentElement.dir='ltr';document.documentElement.lang='en';" type="button">EN</button><button class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-all focus:outline-none" onclick="document.documentElement.dir='rtl';document.documentElement.lang='ar';" type="button">AR</button></div><a class="hidden sm:inline-flex items-center justify-center bg-tertiary-container hover:bg-tertiary text-on-tertiary font-label-md text-label-md px-space-lg py-space-sm rounded-lg shadow-[0_8px_20px_-4px_rgba(46,158,107,0.35)] transition-all hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-on-tertiary-container" data-path="contact" href="#contact">Me contacter</a><div class="flex items-center pl-space-xs"><img
+        alt="Profile"
+        class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-high"
+        src="/profil.png"
+/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow Gradient Container -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[780px] h-[380px] bg-gradient-to-tr from-secondary/15 via-tertiary-fixed/20 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<!-- 1. HERO SECTION -->
+<section class="relative max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pt-space-xl pb-space-3xl">
+<div class="flex flex-col items-start gap-space-lg max-w-4xl">
+<!-- Live Status Badge -->
+<div class="inline-flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-full shadow-[0_2px_8px_-2px_rgba(23,55,107,0.06)] border border-primary/10 animate-pulse">
+<span class="w-2.5 h-2.5 rounded-full bg-on-tertiary-container ring-4 ring-on-tertiary-container/20"></span>
+<span class="font-label-sm text-label-sm text-primary tracking-wide font-semibold" data-i18n="hero_status">
+            Disponible pour nouvelles missions &amp; projets stratégiques
+          </span>
+</div>
+<!-- Catchy Main Headline -->
+<div class="flex flex-col gap-space-xs">
+<h1 class="font-display text-display-mobile md:text-display text-primary tracking-tight font-extrabold leading-tight">
+<span data-i18n="hero_title_1">Des applications robustes, </span>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-on-tertiary-container to-secondary" data-i18n="hero_title_2">livrées plus vite.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl pt-space-sm leading-relaxed" data-i18n="hero_subtitle">
+            Conseil en architecture logicielle, développement Full Stack sur mesure et ingénierie DevOps. L'excellence technique sans intermédiaire, accélérée par l'IA appliquée.
+          </p>
+</div>
+<!-- 2 CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-space-xs bg-tertiary-container hover:bg-tertiary text-on-tertiary font-label-md text-label-md px-space-xl py-space-md rounded-lg shadow-[0_8px_20px_-4px_rgba(46,158,107,0.35)] transition-all hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-on-tertiary-container group" href="#contact">
+<span data-i18n="cta_quote">Demander un devis</span>
+<span class="material-symbols-outlined text-[1.15rem] group-hover:translate-x-1 transition-transform rtl:group-hover:-translate-x-1">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-lowest hover:bg-surface-container text-primary font-label-md text-label-md px-space-xl py-space-md rounded-lg shadow-[0_2px_8px_-2px_rgba(23,55,107,0.06)] border border-primary/20 transition-all hover:-translate-y-0.5 focus:outline-none" href="#services">
+<span data-i18n="cta_discover">Découvrir mes services</span>
+</a>
+</div>
+<!-- 3 Credibility Indicators / Metrics -->
+<div class="w-full grid grid-cols-1 md:grid-cols-3 gap-space-md pt-space-xl">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] border-l-4 border-l-secondary flex flex-col justify-between">
+<div class="flex items-center gap-space-sm text-secondary mb-space-xs">
+<span class="material-symbols-outlined">verified_user</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">100%</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-medium" data-i18n="metric_1">
+              Réalisé par un Développeur (sans sous-traitance ni dilution)
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] border-l-4 border-l-on-tertiary-container flex flex-col justify-between">
+<div class="flex items-center gap-space-sm text-on-tertiary-container mb-space-xs">
+<span class="material-symbols-outlined">translate</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">3 Langues</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-medium" data-i18n="metric_2">
+              Langues de travail fluides (Français · Anglais · Arabe)
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] border-l-4 border-l-primary flex flex-col justify-between">
+<div class="flex items-center gap-space-sm text-primary mb-space-xs">
+<span class="material-symbols-outlined">cloud_sync</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">Cloud Native</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-medium" data-i18n="metric_3">
+              Stack moderne, architecture résiliente et outillage IA de pointe
+            </p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- 2. SERVICES SECTION -->
+<section class="w-full bg-surface-container-low py-space-3xl" id="services">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col items-start gap-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="services_tag">Offres &amp; Interventions</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="services_heading">
+          Piliers d'ingénierie logicielle
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="services_sub">
+          Une réponse technique chirurgicale pour concevoir des produits fiables, désengorger vos pipelines et industrialiser vos innovations.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter-desktop">
+<!-- Service Card 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between hover:-translate-y-1 hover:shadow-[0_12px_28px_-6px_rgba(23,55,107,0.08)] transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">terminal</span>
+</span>
+<span class="font-label-sm text-label-sm px-space-sm py-space-xs rounded-full bg-surface-container-high text-secondary font-semibold">Full Stack Architecture</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold" data-i18n="srv1_title">Développement Full Stack sur mesure</h3>
+<p class="font-code text-code text-secondary font-medium mt-1">Java · Spring Boot · Angular · React · REST · MongoDB · PostgresSQL </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="srv1_desc">
+              Applications web scalables, plateformes SaaS multi-tenants, portails clients haute disponibilité et logiciels d'entreprise critiques.
+            </p>
+<ul class="flex flex-col gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Conception modulaire et Clean Architecture éprouvée</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Typage strict, interfaces réactives et accessibilité</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Sécurité dès la conception (OAuth2 / OIDC)</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-lg mt-space-md">
+<a class="inline-flex items-center gap-space-xs text-primary font-label-md text-label-md hover:text-secondary group" href="#contact">
+<span>En savoir plus sur la prestation</span>
+<span class="material-symbols-outlined text-[1rem] group-hover:translate-x-1 transition-transform rtl:group-hover:-translate-x-1">east</span>
+</a>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between hover:-translate-y-1 hover:shadow-[0_12px_28px_-6px_rgba(23,55,107,0.08)] transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">deployed_code</span>
+</span>
+<span class="font-label-sm text-label-sm px-space-sm py-space-xs rounded-full bg-surface-container-high text-secondary font-semibold">DevOps &amp; Infra</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold" data-i18n="srv2_title">Ingénierie DevOps &amp; CI/CD</h3>
+<p class="font-code text-code text-secondary font-medium mt-1">Docker · GitHub Actions · AWS </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="srv2_desc">
+              Déploiements automatisés à haute fréquence, isolation prédictible des conteneurs, infrastructure as code sécurisée et tolérance aux pannes.
+            </p>
+<ul class="flex flex-col gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Pipelines d'intégration et déploiement continu automatisés (0 interruption)</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Observabilité active : métriques, logs centralisés et alertes ciblées</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Durcissement des environnements de staging et production</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-lg mt-space-md">
+<a class="inline-flex items-center gap-space-xs text-primary font-label-md text-label-md hover:text-secondary group" href="#contact">
+<span>En savoir plus sur la prestation</span>
+<span class="material-symbols-outlined text-[1rem] group-hover:translate-x-1 transition-transform rtl:group-hover:-translate-x-1">east</span>
+</a>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between hover:-translate-y-1 hover:shadow-[0_12px_28px_-6px_rgba(23,55,107,0.08)] transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">restart_alt</span>
+</span>
+<span class="font-label-sm text-label-sm px-space-sm py-space-xs rounded-full bg-surface-container-high text-secondary font-semibold">Refactoring &amp; SI</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold" data-i18n="srv3_title">Modernisation &amp; Refactoring</h3>
+<p class="font-code text-code text-secondary font-medium mt-1">Dette technique · Monolithes vers Microservices · Audit Qualité</p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="srv3_desc">
+              Traitement chirurgical de la dette technique, découpage maîtrisé de monolithes vers des architectures modulaires et gains de performance.
+            </p>
+<ul class="flex flex-col gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Audit d'architecture, analyse statique et profilage mémoire/CPU</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Migration sans coupure de service (Strangler Fig Pattern)</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Optimisation des requêtes de base de données et des caches Redis</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-lg mt-space-md">
+<a class="inline-flex items-center gap-space-xs text-primary font-label-md text-label-md hover:text-secondary group" href="#contact">
+<span>En savoir plus sur la prestation</span>
+<span class="material-symbols-outlined text-[1rem] group-hover:translate-x-1 transition-transform rtl:group-hover:-translate-x-1">east</span>
+</a>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between hover:-translate-y-1 hover:shadow-[0_12px_28px_-6px_rgba(23,55,107,0.08)] transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">neurology</span>
+</span>
+<span class="font-label-sm text-label-sm px-space-sm py-space-xs rounded-full bg-surface-container-high text-secondary font-semibold">IA Appliquée</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold" data-i18n="srv4_title">IA &amp; Automatisation Appliquée</h3>
+<p class="font-code text-code text-secondary font-medium mt-1">SpringAI · MCP · Agents IA · RAG Entreprise</p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="srv4_desc">
+              Intégration d'IA générative dans vos processus métier et vos chaînes de build : assistants documentaires, agents d'exécution et génération assistée.
+            </p>
+<ul class="flex flex-col gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Systèmes RAG sécurisés basés sur votre base de connaissances interne</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Génération automatique de tests unitaires et documentation d'APIs</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[1.15rem]">check_circle</span>
+<span>Protocoles MCP et outils agentiques sur mesure</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-lg mt-space-md">
+<a class="inline-flex items-center gap-space-xs text-primary font-label-md text-label-md hover:text-secondary group" href="#contact">
+<span>En savoir plus sur la prestation</span>
+<span class="material-symbols-outlined text-[1rem] group-hover:translate-x-1 transition-transform rtl:group-hover:-translate-x-1">east</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. MÉTHODE SECTION (Frise en 5 étapes) -->
+<section class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-3xl w-full" id="methode">
+<div class="flex flex-col items-start gap-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="methode_tag">Processus d'Ingénierie</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="methode_heading">
+        Une méthode en 5 étapes, sans surprise
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="methode_sub">
+        De l'état des lieux initial jusqu'au transfert d'autonomie : un cadre rigoureux avec des livrables contractuels tangibles à chaque étape.
+      </p>
+</div>
+<div class="relative grid grid-cols-1 md:grid-cols-5 gap-space-md">
+<!-- Step 1 -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div>
+<span class="inline-block font-headline-lg text-headline-lg text-secondary font-extrabold mb-space-sm">01</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs" data-i18n="step1_title">Audit &amp; Diagnostic</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="step1_desc">
+            Analyse approfondie du code, cartographie des flux, contraintes de charge et alignement stratégique.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm text-primary font-semibold block">Livrable :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Rapport d'audit &amp; feuille de route priorisée</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div>
+<span class="inline-block font-headline-lg text-headline-lg text-secondary font-extrabold mb-space-sm">02</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs" data-i18n="step2_title">Conception &amp; Architecture</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="step2_desc">
+            Choix technologiques pérennes, spécification des contrats d'APIs, modèles de données et sécurité.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm text-primary font-semibold block">Livrable :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Dossier d'Architecture Technique (DAT) &amp; POC</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div>
+<span class="inline-block font-headline-lg text-headline-lg text-secondary font-extrabold mb-space-sm">03</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs" data-i18n="step3_title">Développement &amp; Intégration</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="step3_desc">
+            Sprints itératifs courts, code testé unitairement, revues strictes et pipelines CI/CD actifs.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm text-primary font-semibold block">Livrable :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Code source documenté &amp; Staging accessible</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div>
+<span class="inline-block font-headline-lg text-headline-lg text-secondary font-extrabold mb-space-sm">04</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs" data-i18n="step4_title">Accompagnement &amp; Transfert</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="step4_desc">
+            Documentation vivante, passage de relais fluide vers vos équipes et ateliers de montée en compétences.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm text-primary font-semibold block">Livrable :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Guide d'exploitation &amp; Sessions de transmission</span>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div>
+<span class="inline-block font-headline-lg text-headline-lg text-secondary font-extrabold mb-space-sm">05</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs" data-i18n="step5_title">Modernisation &amp; Évolution</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="step5_desc">
+            Suivi des performances réelles, patchs de sécurité, anticipation des pics et veille proactive.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm text-primary font-semibold block">Livrable :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Rapports d'impact &amp; Évolutions planifiées</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. POURQUOI EJ TECH (4 Avantages Différenciateurs) -->
+<section class="w-full bg-surface-container-low py-space-3xl" id="avantages">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col items-start gap-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="why_tag">Proposition de Valeur</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="why_heading">
+          Pourquoi choisir EJ Tech ?
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="why_sub">
+          L'alliance d'une rigueur d'ingénieur éprouvée sur des systèmes critiques et d'une vélocité augmentée par les dernières avancées logicielles.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+<!-- Adv 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined">all_inclusive</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold" data-i18n="adv1_title">Expertise de bout en bout</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="adv1_desc">
+            De l'analyse d'architecture, au code backend/frontend, jusqu'au monitoring en production : une vision globale à 360° pour supprimer les silos techniques.
+          </p>
+</div>
+<!-- Adv 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-on-tertiary-container mb-space-xs">
+<span class="material-symbols-outlined">smart_toy</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold" data-i18n="adv2_title">IA au service de l'expertise</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="adv2_desc">
+            Productivité décuplée grâce aux copilotes et frameworks agentiques, systématiquement validés et éprouvés par la rigueur critique de l'ingénieur.
+          </p>
+</div>
+<!-- Adv 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-xs">
+<span class="material-symbols-outlined">person_pin</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold" data-i18n="adv3_title">Interlocuteur direct et unique</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="adv3_desc">
+            Je réalise personnellement 100% de la mission. Zéro commercial intermédiaire, une communication limpide sans déperdition, des délais toujours tenus.
+          </p>
+</div>
+<!-- Adv 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined">language</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold" data-i18n="adv4_title">Rigueur &amp; International</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="adv4_desc">
+            Expérience forgée sur des systèmes à haute criticité (secteurs énergie, santé). Capacité d'intervention multilingue immédiate pour vos équipes internationales.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. CIBLES CLIENTS & BESOINS RÉSOLUS -->
+<section class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-3xl w-full">
+<div class="flex flex-col items-start gap-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="targets_tag">Cas d'usage &amp; Typologies</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="targets_heading">
+        À qui s'adresse l'offre EJ Tech ?
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="targets_sub">
+        Des solutions adaptées à chaque stade d'évolution, de la scale-up en pleine traction jusqu'au grand groupe modernisant son patrimoine applicatif.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+<!-- Target 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm text-primary">
+<span class="material-symbols-outlined text-secondary">apartment</span>
+<span class="font-headline-sm text-headline-sm font-bold">PME &amp; ETI</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Accélérer la numérisation des processus métier et consolider les applications existantes sans alourdir vos coûts fixes avec une équipe pléthorique.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-primary/10">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Besoin résolu :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-0.5">SaaS métier sécurisé &amp; ROI rapide</span>
+</div>
+</div>
+<!-- Target 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm text-primary">
+<span class="material-symbols-outlined text-secondary">hub</span>
+<span class="font-headline-sm text-headline-sm font-bold">ESN &amp; Grands Comptes</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Renfort d'expertise pointue (Lead Dev / Architecte Java Spring Boot) sur des projets critiques nécessitant une prise en main immédiate et autonome.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-primary/10">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Besoin résolu :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-0.5">Cadence de delivery &amp; qualité de code</span>
+</div>
+</div>
+<!-- Target 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm text-primary">
+<span class="material-symbols-outlined text-secondary">rocket_launch</span>
+<span class="font-headline-sm text-headline-sm font-bold">Start-ups &amp; Scale-ups</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Lancer un MVP robuste et évolutif en quelques semaines, ou réarchitecturer un produit initial pour encaisser une forte montée en charge.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-primary/10">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Besoin résolu :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-0.5">Time-to-market accéléré &amp; fondations saines</span>
+</div>
+</div>
+<!-- Target 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm text-primary">
+<span class="material-symbols-outlined text-secondary">public</span>
+<span class="font-headline-sm text-headline-sm font-bold">Clients Internationaux</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Missions transfrontalières conduites en français, anglais ou arabe, avec flexibilité horaire et respect des standards européens de conformité.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-primary/10">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Besoin résolu :</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-0.5">Collaboration fluide sans friction culturelle</span>
+</div>
+</div>
+</div>
+<!-- Témoignages & Logos Partners Placeholder Box -->
+<div class="mt-space-2xl bg-surface-container-low p-space-xl rounded-2xl flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-semibold uppercase tracking-wider">Références &amp; Témoignages</span>
+<h4 class="font-headline-md text-headline-md text-primary font-bold">Confiance de partenaires exigeants</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Collaborations réussies auprès d'acteurs de premier plan dans l'énergie, la santé publique et les services financiers.
+        </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-lg opacity-60">
+<span class="font-code text-code text-primary font-bold uppercase tracking-wider">#SANTE-NUMERIQUE</span>
+<span class="font-code text-code text-primary font-bold uppercase tracking-wider">#ENERGIE-TRANSITION</span>
+<span class="font-code text-code text-primary font-bold uppercase tracking-wider">#FINTECH-SCALEUP</span>
+</div>
+</div>
+</section>
+<!-- 6. TECHNOLOGIES & ÉCOSYSTÈME -->
+<section class="w-full bg-surface-container-low py-space-3xl" id="technologies">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col items-start gap-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="tech_tag">Stack Technique</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="tech_heading">
+          Technologies maîtrisées &amp; Écosystème
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="tech_sub">
+          Des outils éprouvés en production, sélectionnés pour leur performance, leur maintenabilité et la solidité de leur communauté.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-desktop">
+<!-- Backend -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)]">
+<div class="flex items-center gap-space-sm text-primary mb-space-md">
+<span class="material-symbols-outlined text-secondary">database</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">Backend &amp; Services</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Java 8-25</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Spring Boot </span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Hibernate / JPA</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Node.js</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">REST APIs</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">RabbitMQc</span>
+</div>
+</div>
+<!-- Frontend -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)]">
+<div class="flex items-center gap-space-sm text-primary mb-space-md">
+<span class="material-symbols-outlined text-secondary">web</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">Frontend &amp; UI</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Angular</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">React</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">TypeScript</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Tailwind CSS</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">RxJS</span>
+</div>
+</div>
+<!-- DevOps & Cloud -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)]">
+<div class="flex items-center gap-space-sm text-primary mb-space-md">
+<span class="material-symbols-outlined text-secondary">cloud</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">DevOps &amp; Cloud</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Docker</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Kubernetes</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">GitHub Actions</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">AWS</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Grafana</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Prometheus</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Elastic Stack</span>
+</div>
+</div>
+<!-- Données & Outils -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)]">
+<div class="flex items-center gap-space-sm text-primary mb-space-md">
+<span class="material-symbols-outlined text-secondary">storage</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">Données &amp; Persistance</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">PostgreSQL</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">MySQL</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">MongoDB</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Redis</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Git</span>
+</div>
+</div>
+<!-- IA & Automatisation -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] md:col-span-2">
+<div class="flex items-center gap-space-sm text-primary mb-space-md">
+<span class="material-symbols-outlined text-on-tertiary-container">smart_toy</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">IA &amp; Automatisation Intelligente</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">SpringAI</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">MCP (Model Context Protocol)</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Assistants LLM &amp; Agents</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">RAG Entreprise</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Vector DBs (Qdrant / PGVector)</span>
+<span class="bg-surface-container px-space-md py-space-xs rounded-full font-code text-code text-primary">Prompt Engineering Avancé</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. FORMULES & MODALITÉS D'INTERVENTION -->
+<section class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-3xl w-full">
+<div class="flex flex-col items-start gap-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="pricing_tag">Modalités d'Engagement</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="pricing_heading">
+        Des formules adaptées à votre contexte
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="pricing_sub">
+        Transparence totale, flexibilité contractuelle et engagement sur les résultats sans devis opaque.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+<!-- Plan 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Engagement Clé en Main</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">Forfait Projet</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Périmètre, jalons et livrables définis à l'avance. Idéal pour un développement complet d'application, la création d'un MVP ou une refonte ciblée.
+          </p>
+<ul class="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Spécifications claires</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Budget et délai garantis</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Recette &amp; garantie livraison</li>
+</ul>
+</div>
+<div class="pt-space-lg">
+<a class="w-full inline-flex items-center justify-center bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md py-space-sm rounded-lg transition-colors" href="#contact">
+            Demander un devis
+          </a>
+</div>
+</div>
+<!-- Plan 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between border-2 border-secondary/20">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-bold uppercase tracking-wider">Régie &amp; Accompagnement</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">Tarif Journalier (TJM)</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            En régie ou assistance technique au quotidien. Idéal pour le conseil d'architecture, le lead technique, le renfort d'équipe ou la formation avancée.
+          </p>
+<ul class="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-on-tertiary-container text-[1rem]">check</span> Intégration dans vos rituels Agile</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-on-tertiary-container text-[1rem]">check</span> Facturation au temps passé réel</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-on-tertiary-container text-[1rem]">check</span> Disponibilité temps plein / partiel</li>
+</ul>
+</div>
+<div class="pt-space-lg">
+<a class="w-full inline-flex items-center justify-center bg-tertiary-container hover:bg-tertiary text-on-tertiary font-label-md text-label-md py-space-sm rounded-lg transition-colors shadow-[0_8px_20px_-4px_rgba(46,158,107,0.35)]" href="#contact">
+            Demander un devis
+          </a>
+</div>
+</div>
+<!-- Plan 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Pérennité &amp; Suivi</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">Abonnement Maintien</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Forfait mensuel d'heures garanti pour la maintenance préventive, les mises à jour de sécurité et le support technique réactif au fil de l'eau.
+          </p>
+<ul class="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> SLA de prise en charge réactif</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Veille sur les dépendances (CVE)</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Réserve d'heures reportables</li>
+</ul>
+</div>
+<div class="pt-space-lg">
+<a class="w-full inline-flex items-center justify-center bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md py-space-sm rounded-lg transition-colors" href="#contact">
+            Demander un devis
+          </a>
+</div>
+</div>
+<!-- Plan 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Expertise Ponctuelle</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">Conseil &amp; Audit</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Mission courte d'audit technique, revue de code critique, benchmark de performance ou cadrage d'une trajectoire d'adoption de l'IA.
+          </p>
+<ul class="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Diagnostic flash sous 5 jours</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Recommandations pragmatiques</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[1rem]">check</span> Débriefing direct avec le board/CTO</li>
+</ul>
+</div>
+<div class="pt-space-lg">
+<a class="w-full inline-flex items-center justify-center bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md py-space-sm rounded-lg transition-colors" href="#contact">
+            Demander un devis
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. À PROPOS D'ANOUAR EL JID -->
+<section class="w-full bg-surface-container-low py-space-3xl" id="a-propos">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Visual & Photo Column -->
+<div class="lg:col-span-5 flex flex-col items-center">
+<div class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-[0_12px_28px_-6px_rgba(23,55,107,0.12)] bg-surface-container-lowest p-space-sm">
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Anouar EL JID</span>
+<span class="font-label-md text-label-md text-secondary">Fondateur &amp; Ingénieur Logiciel</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-space-xs pt-1">
+<span class="material-symbols-outlined text-[1rem] text-on-tertiary-container">verified</span> Master en Génie Logiciel
+              </span>
+</div>
+</div>
+</div>
+<!-- Bio & Philosophy Column -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="about_tag">Le Fondateur</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="about_heading">
+            L'artisanat du code au service de vos défis stratégiques
+          </h2>
+<div class="flex flex-col gap-space-sm text-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p data-i18n="about_p1">
+              Ingénieur en Génie Logiciel fort d'une expérience concrète sur des architectures distribuées exigeantes, j'ai fondé EJ Tech pour apporter aux décideurs une expertise technique sans filtre ni bureaucratie.
+            </p>
+<p data-i18n="about_p2">
+              J'ai notamment exercé mes compétences dans des environnements aux exigences de sûreté et de conformité critiques — tels que l'énergie et la santé publique — où la moindre faille ou indisponibilité est inenvisageable.
+            </p>
+<p data-i18n="about_p3">
+              Polyglotte (Français, Anglais, Arabe), j'accompagne des équipes distribuées en France et à l'international avec une rigueur communicative et une pédagogie naturelle.
+            </p>
+</div>
+<!-- Highlight Philosophy Box -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] border-l-4 border-l-secondary my-space-xs">
+<p class="font-headline-sm text-headline-sm text-primary italic font-semibold">
+              « La simplicité et la robustesse du code sont les meilleurs garants de la pérennité de votre entreprise. »
+            </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary">location_on</span>
+<span>Paris &amp; Mobilité Internationale</span>
+</div>
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-on-tertiary-container">schedule</span>
+<span>Réactivité sous 24h ouvrées</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. FAQ INTERACTIVE ACCORDÉON -->
+<section class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-3xl w-full" id="faq">
+<div class="flex flex-col items-start gap-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="faq_tag">Foire Aux Questions</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="faq_heading">
+        Questions fréquentes
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="faq_sub">
+        Toutes les réponses pour démarrer une collaboration en toute sérénité et transparence.
+      </p>
+</div>
+<div class="max-w-3xl flex flex-col gap-space-md" id="faq-accordion">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] overflow-hidden transition-all">
+<button class="faq-toggle w-full px-space-xl py-space-lg flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Quels sont vos délais d'intervention habituels ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-xl pb-space-lg text-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Pour une mission de conseil ou un audit technique ponctuel, le démarrage s'effectue généralement sous 5 à 10 jours ouvrés. Pour une mission de développement au forfait ou un renfort en régie, nous convenons d'une date de début alignée avec vos jalons opérationnels.
+        </div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] overflow-hidden transition-all">
+<button class="faq-toggle w-full px-space-xl py-space-lg flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Travaillez-vous à distance ou sur site ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-xl pb-space-lg text-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Le mode par défaut est le télétravail avec un outillage asynchrone rigoureux (GitHub, Slack, Jira, visios de synchronisation). Des déplacements réguliers sur site (Paris, Île-de-France ou mobilité ponctuelle dans l'Union Européenne et international) sont possibles pour les comités de lancement, workshops d'architecture ou rétrospectives clés.
+        </div>
+</div>
+<!-- Item 3 -->
+<div class="faq-item bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] overflow-hidden transition-all">
+<button class="faq-toggle w-full px-space-xl py-space-lg flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Comment gérez-vous la méthode Agile et le suivi d'avancement ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-xl pb-space-lg text-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Nous définissons des sprints de 1 à 2 semaines rythmés par des démonstrations concrètes sur environnement de pré-production. Vous avez accès au kanban en temps réel et recevez un compte-rendu hebdomadaire synthétique incluant les décisions d'architecture prises.
+        </div>
+</div>
+<!-- Item 4 -->
+<div class="faq-item bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] overflow-hidden transition-all">
+<button class="faq-toggle w-full px-space-xl py-space-lg flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">À qui appartient le code source développé ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-xl pb-space-lg text-body-md text-body-md text-on-surface-variant leading-relaxed">
+          100% de la propriété intellectuelle vous est intégralement cédée dès le paiement des prestations. Le code, les tests, la documentation et les scripts de déploiement sont livrés sur vos dépôts sans aucune dépendance propriétaire cachée.
+        </div>
+</div>
+<!-- Item 5 -->
+<div class="faq-item bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] overflow-hidden transition-all">
+<button class="faq-toggle w-full px-space-xl py-space-lg flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Assurez-vous la maintenance après la livraison ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-xl pb-space-lg text-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Absolument. Chaque projet au forfait bénéficie d'une période de garantie de livraison. Au-delà, notre formule Abonnement Maintenance garantit des interventions de mise à jour préventive, la veille de failles de sécurité et un support prioritaire en cas d'incident.
+        </div>
+</div>
+<!-- Item 6 -->
+<div class="faq-item bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] overflow-hidden transition-all">
+<button class="faq-toggle w-full px-space-xl py-space-lg flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Comment garantissez-vous la confidentialité de nos données métier ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-xl pb-space-lg text-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Un accord de confidentialité strict (NDA) est systématiquement signé avant tout échange d'informations sensibles. Les flux de travail respectent les bonnes pratiques RGPD et l'isolation des secrets d'infrastructure via des gestionnaires de coffres-forts cryptographiques.
+        </div>
+</div>
+</div>
+</section>
+<!-- 10. CONTACT & PRISE DE RENDEZ-VOUS (Avec Bloc Calendly intégré) -->
+<section class="w-full bg-surface-container-low py-space-3xl" id="contact">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<!-- Direct Infos & Calendly CTA -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold" data-i18n="contact_tag">Échange direct</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight" data-i18n="contact_heading">
+              Parlons de votre prochain jalon technique
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="contact_sub">
+              Recevez une réponse détaillée et un premier avis d'expert sous 24 heures.
+            </p>
+</div>
+<!-- Coordonnées directes -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex flex-col gap-space-md">
+<div class="flex items-center gap-space-md">
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">mail</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Courriel direct</span>
+<a class="font-headline-sm text-headline-sm text-primary font-semibold hover:text-secondary transition-colors" href="mailto:anouar.eljid@gmail.com">
+                  anouar.eljid@gmail.com
+                </a>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">call</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Téléphone mobile</span>
+<a class="font-headline-sm text-headline-sm text-primary font-semibold hover:text-secondary transition-colors" href="tel:0617487169">
+                  06 17 48 71 68
+                </a>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">location_city</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Disponibilité géographique</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">
+                  France &amp; International (Remote / Hybride)
+                </span>
+</div>
+</div>
+</div>
+<!-- Liens Profils Pro -->
+<div class="flex items-center gap-space-md">
+<a class="flex-1 bg-surface-container-lowest p-space-md rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex items-center justify-center gap-space-sm text-primary hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" href="https://www.linkedin.com/in/anouar-elgid-3384811b5/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[1.25rem]">share</span>
+<span>LinkedIn</span>
+</a>
+<a class="flex-1 bg-surface-container-lowest p-space-md rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex items-center justify-center gap-space-sm text-primary hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[1.25rem]">code</span>
+<span>GitHub</span>
+</a>
+<a class="flex-1 bg-surface-container-lowest p-space-md rounded-xl shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)] flex items-center justify-center gap-space-sm text-primary hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" href="https://www.malt.fr/profile/anouareljid" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[1.25rem]">badge</span>
+<span>Malt</span>
+</a>
+</div>
+<!-- Calendly Callout Integration -->
+<div class="bg-primary text-on-primary p-space-xl rounded-2xl flex flex-col gap-space-md shadow-[0_12px_28px_-6px_rgba(23,55,107,0.18)]" id="calendly">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-fixed">calendar_today</span>
+<span class="font-headline-sm text-headline-sm font-bold">Appel Découverte 30 min</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+              Planifiez directement un créneau d'échange technique informel de 30 minutes sans engagement pour discuter de vos enjeux.
+            </p>
+<a class="inline-flex items-center justify-center gap-space-sm bg-tertiary-container hover:bg-tertiary text-on-tertiary font-label-md text-label-md py-space-sm px-space-md rounded-lg shadow-[0_8px_20px_-4px_rgba(46,158,107,0.35)] transition-all" href="https://calendly.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[1.1rem]">event_available</span>
+<span>Ouvrir l'agenda en ligne</span>
+</a>
+</div>
+</div>
+<!-- Formulaire de Devis & Contact -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-xl rounded-2xl shadow-[0_12px_28px_-6px_rgba(23,55,107,0.06)]">
+<form class="flex flex-col gap-space-md" id="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-feedback').classList.remove('hidden'); this.reset();">
+<h3 class="font-headline-md text-headline-md text-primary font-bold mb-space-xs" data-i18n="form_title">
+              Formulaire de contact &amp; demande de devis
+            </h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="name">Nom complet *</label>
+<input class="w-full bg-surface-container-low text-primary px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" id="name" placeholder="Ex. Jean Dupont" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="email">Adresse e-mail professionnelle *</label>
+<input class="w-full bg-surface-container-low text-primary px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" id="email" placeholder="nom@entreprise.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="company">Entreprise / Organisation</label>
+<input class="w-full bg-surface-container-low text-primary px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" id="company" placeholder="Ex. TechCorp SA" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="project_type">Type de projet *</label>
+<select class="w-full bg-surface-container-low text-primary px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" id="project_type" required="">
+<option disabled="" selected="" value="">Sélectionnez une modalité...</option>
+<option value="new_project">Nouveau projet / Développement sur-mesure</option>
+<option value="modernization">Modernisation de SI / Refactoring Legacy</option>
+<option value="team_reinforcement">Renfort d'équipe / Lead Tech Java Spring Boot</option>
+<option value="audit_consulting">Audit d'architecture / Conseil IA &amp; DevOps</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="message">Détails de votre besoin ou projet *</label>
+<textarea class="w-full bg-surface-container-low text-primary px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" id="message" placeholder="Décrivez succinctement vos contraintes techniques, délais envisagés et objectifs..." required="" rows="4"></textarea>
+</div>
+<div class="flex items-start gap-space-sm pt-space-xs">
+<input class="mt-1 w-4 h-4 rounded text-secondary focus:ring-secondary accent-on-tertiary-container" id="rgpd" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface-variant leading-tight" for="rgpd">
+                J'accepte que les informations saisies soient utilisées exclusivement dans le cadre de ma demande et de la relation professionnelle qui peut en découler (conformité RGPD stricte).
+              </label>
+</div>
+<div class="hidden p-space-md bg-tertiary-container text-on-tertiary rounded-lg font-body-sm text-body-sm flex items-center gap-space-sm" id="form-feedback">
+<span class="material-symbols-outlined text-on-tertiary">check_circle</span>
+<span>Merci ! Votre message a bien été transmis. Je vous recontacterai dans un délai maximum de 24h ouvrées.</span>
+</div>
+<button class="mt-space-sm inline-flex items-center justify-center gap-space-sm bg-tertiary-container hover:bg-tertiary text-on-tertiary font-label-md text-label-md py-space-md px-space-xl rounded-lg shadow-[0_8px_20px_-4px_rgba(46,158,107,0.35)] transition-all hover:-translate-y-0.5 focus:outline-none" type="submit">
+<span>Envoyer ma demande</span>
+<span class="material-symbols-outlined text-[1.1rem]">send</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- 11. SCRIPT TRILINGUISME & SUPPORT RTL + FAQ ACCORDION -->
+<script>
+  // FAQ Interactive Accordion
+  document.querySelectorAll('.faq-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('.material-symbols-outlined');
+      const isExpanded = !content.classList.contains('hidden');
+      
+      // Close all others
+      document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+      document.querySelectorAll('.faq-toggle .material-symbols-outlined').forEach(i => i.style.transform = 'rotate(0deg)');
+
+      if (!isExpanded) {
+        content.classList.remove('hidden');
+        if (icon) icon.style.transform = 'rotate(180deg)';
+      }
+    });
+  });
+
+  // Multilingual Dictionaries (FR, EN, AR)
+  const translations = {
+    fr: {
+      hero_status: "Disponible pour nouvelles missions & projets stratégiques",
+      hero_title_1: "Des applications robustes, ",
+      hero_title_2: "livrées plus vite.",
+      hero_subtitle: "Conseil en architecture logicielle, développement Full Stack sur mesure et ingénierie DevOps. L'excellence technique sans intermédiaire, accélérée par l'IA appliquée.",
+      cta_quote: "Demander un devis",
+      cta_discover: "Découvrir mes services",
+      metric_1: "Réalisé par un Ingénieur Senior (sans sous-traitance ni dilution)",
+      metric_2: "Langues de travail fluides (Français · Anglais · Arabe)",
+      metric_3: "Stack moderne, architecture résiliente et outillage IA de pointe",
+      services_tag: "Offres & Interventions",
+      services_heading: "Piliers d'ingénierie logicielle",
+      services_sub: "Une réponse technique chirurgicale pour concevoir des produits fiables, désengorger vos pipelines et industrialiser vos innovations.",
+      srv1_title: "Développement Full Stack sur mesure",
+      srv1_desc: "Applications web scalables, plateformes SaaS multi-tenants, portails clients haute disponibilité et logiciels d'entreprise critiques.",
+      srv2_title: "Ingénierie DevOps & CI/CD",
+      srv2_desc: "Déploiements automatisés à haute fréquence, isolation prédictible des conteneurs, infrastructure as code sécurisée et tolérance aux pannes.",
+      srv3_title: "Modernisation & Refactoring",
+      srv3_desc: "Traitement chirurgical de la dette technique, découpage maîtrisé de monolithes vers des architectures modulaires et gains drastiques de performance.",
+      srv4_title: "IA & Automatisation Appliquée",
+      srv4_desc: "Intégration d'IA générative dans vos processus métier et vos chaînes de build : assistants documentaires, agents d'exécution et génération assistée.",
+      methode_tag: "Processus d'Ingénierie",
+      methode_heading: "Une méthode en 5 étapes, sans surprise",
+      methode_sub: "De l'état des lieux initial jusqu'au transfert d'autonomie : un cadre rigoureux avec des livrables contractuels tangibles à chaque étape.",
+      step1_title: "Audit & Diagnostic",
+      step1_desc: "Analyse approfondie du code, cartographie des flux, contraintes de charge et alignement stratégique.",
+      step2_title: "Conception & Architecture",
+      step2_desc: "Choix technologiques pérennes, spécification des contrats d'APIs, modèles de données et sécurité.",
+      step3_title: "Développement & Intégration",
+      step3_desc: "Sprints itératifs courts, code testé unitairement, revues strictes et pipelines CI/CD actifs.",
+      step4_title: "Accompagnement & Transfert",
+      step4_desc: "Documentation vivante, passage de relais fluide vers vos équipes et ateliers de montée en compétences.",
+      step5_title: "Modernisation & Évolution",
+      step5_desc: "Suivi des performances réelles, patchs de sécurité, anticipation des pics et veille proactive.",
+      why_tag: "Proposition de Valeur",
+      why_heading: "Pourquoi choisir EJ Tech ?",
+      why_sub: "L'alliance d'une rigueur d'ingénieur éprouvée sur des systèmes critiques et d'une vélocité augmentée par les dernières avancées logicielles.",
+      adv1_title: "Expertise de bout en bout",
+      adv1_desc: "De l'analyse d'architecture, au code backend/frontend, jusqu'au monitoring en production : une vision globale à 360° pour supprimer les silos techniques.",
+      adv2_title: "IA au service de l'expertise",
+      adv2_desc: "Productivité décuplée grâce aux copilotes et frameworks agentiques, systématiquement validés et éprouvés par la rigueur critique de l'ingénieur.",
+      adv3_title: "Interlocuteur direct et unique",
+      adv3_desc: "Je réalise personnellement 100% de la mission. Zéro commercial intermédiaire, une communication limpide sans déperdition, des délais toujours tenus.",
+      adv4_title: "Rigueur & International",
+      adv4_desc: "Expérience forgée sur des systèmes à haute criticité (secteurs énergie, santé). Capacité d'intervention multilingue immédiate pour vos équipes internationales.",
+      targets_tag: "Cas d'usage & Typologies",
+      targets_heading: "À qui s'adresse l'offre EJ Tech ?",
+      targets_sub: "Des solutions adaptées à chaque stade d'évolution, de la scale-up en pleine traction jusqu'au grand groupe modernisant son patrimoine applicatif.",
+      tech_tag: "Stack Technique",
+      tech_heading: "Technologies maîtrisées & Écosystème",
+      tech_sub: "Des outils éprouvés en production, sélectionnés pour leur performance, leur maintenabilité et la solidité de leur communauté.",
+      pricing_tag: "Modalités d'Engagement",
+      pricing_heading: "Des formules adaptées à votre contexte",
+      pricing_sub: "Transparence totale, flexibilité contractuelle et engagement sur les résultats sans devis opaque.",
+      about_tag: "Le Fondateur",
+      about_heading: "L'artisanat du code au service de vos défis stratégiques",
+      about_p1: "Ingénieur en Génie Logiciel fort d'une expérience concrète sur des architectures distribuées exigeantes, j'ai fondé EJ Tech pour apporter aux décideurs une expertise technique sans filtre ni bureaucratie.",
+      about_p2: "J'ai notamment exercé mes compétences dans des environnements aux exigences de sûreté et de conformité critiques — tels que l'énergie et la santé publique — où la moindre faille ou indisponibilité est inenvisageable.",
+      about_p3: "Polyglotte (Français, Anglais, Arabe), j'accompagne des équipes distribuées en France et à l'international avec une rigueur communicative et une pédagogie naturelle.",
+      faq_tag: "Foire Aux Questions",
+      faq_heading: "Questions fréquentes",
+      faq_sub: "Toutes les réponses pour démarrer une collaboration en toute sérénité et transparence.",
+      contact_tag: "Échange direct",
+      contact_heading: "Parlons de votre prochain jalon technique",
+      contact_sub: "Recevez une réponse détaillée et un premier avis d'expert sous 24 heures.",
+      form_title: "Formulaire de contact & demande de devis"
+    },
+    en: {
+      hero_status: "Available for new strategic engineering projects",
+      hero_title_1: "Robust applications, ",
+      hero_title_2: "delivered faster.",
+      hero_subtitle: "Software architecture consulting, custom Full Stack engineering, and DevOps pipelines. Direct senior mastery accelerated by applied enterprise AI.",
+      cta_quote: "Request a quote",
+      cta_discover: "Explore services",
+      metric_1: "100% crafted by a Senior Software Engineer (no subcontracting)",
+      metric_2: "Fluent working languages (French · English · Arabic)",
+      metric_3: "Modern Cloud Native stack & automated high-resilience delivery",
+      services_tag: "Services & Scope",
+      services_heading: "Core Engineering Pillars",
+      services_sub: "Surgical technical execution to ship dependable products, clear deployment bottlenecks, and scale your systems.",
+      srv1_title: "Bespoke Full Stack Development",
+      srv1_desc: "Scalable web systems, multi-tenant SaaS architectures, high-availability customer portals and business-critical tooling.",
+      srv2_title: "DevOps & CI/CD Engineering",
+      srv2_desc: "Automated continuous delivery pipelines, predictable container isolation, secure infrastructure as code and zero-downtime releases.",
+      srv3_title: "Modernization & Refactoring",
+      srv3_desc: "Targeted elimination of technical debt, modular decoupling of legacy monoliths, and drastic performance gains.",
+      srv4_title: "Applied AI & Automation",
+      srv4_desc: "Embedding generative AI and agentic systems into development workflows: RAG pipelines, autonomous code assistants and automated QA.",
+      methode_tag: "Engineering Workflow",
+      methode_heading: "A transparent 5-step methodology",
+      methode_sub: "From initial code inspection to autonomous handover: structured phases with concrete deliverables at every stage.",
+      step1_title: "Audit & Diagnostics",
+      step1_desc: "In-depth code review, architectural mapping, performance constraints, and strategic roadmap prioritization.",
+      step2_title: "Design & Architecture",
+      step2_desc: "Future-proof tech stack selection, API specification, database modeling, and zero-trust security foundations.",
+      step3_title: "Development & Integration",
+      step3_desc: "Short iterative agile sprints, high unit-test coverage, strict code reviews, and continuous integration.",
+      step4_title: "Enablement & Handover",
+      step4_desc: "Living documentation, frictionless knowledge transfer to internal teams, and hands-on technical workshops.",
+      step5_title: "Evolution & Optimization",
+      step5_desc: "Live production monitoring, security updates, traffic spike anticipation, and continuous proactive tuning.",
+      why_tag: "Value Proposition",
+      why_heading: "Why partner with EJ Tech?",
+      why_sub: "The discipline of critical-system engineering combined with the acceleration of modern applied AI tooling.",
+      adv1_title: "End-to-End Ownership",
+      adv1_desc: "From architecture diagrams to backend/frontend code and production monitoring: full 360° technical oversight.",
+      adv2_title: "AI-Augmented Execution",
+      adv2_desc: "Multiplied development velocity with modern agentic tooling, verified by rigorous senior engineering standards.",
+      adv3_title: "Single Direct Contact",
+      adv3_desc: "I personally deliver 100% of your mission. Zero account managers, clear communication, and guaranteed deadlines.",
+      adv4_title: "Critical Sectors & Global Reach",
+      adv4_desc: "Proven track record in high-stakes industries (energy, healthcare) with trilingual fluency across international markets.",
+      targets_tag: "Target Audiences",
+      targets_heading: "Who benefits most from EJ Tech?",
+      targets_sub: "Tailored engagements for fast-growing startups to enterprise scale-ups modernizing legacy footprints.",
+      tech_tag: "Technology Stack",
+      tech_heading: "Mastered Technologies & Tooling",
+      tech_sub: "Production-tested tools selected for performance, maintainability, and community resilience.",
+      pricing_tag: "Engagement Models",
+      pricing_heading: "Flexible collaboration frameworks",
+      pricing_sub: "Complete transparency and contractual clarity tailored to your project scope.",
+      about_tag: "The Founder",
+      about_heading: "Craftsmanship dedicated to your strategic goals",
+      about_p1: "Software Engineer with a Master's degree in Software Engineering and deep experience in distributed systems. I founded EJ Tech to offer direct, high-caliber engineering leadership without agency friction.",
+      about_p2: "I have worked on safety-critical environments including healthcare and energy grids where downtime and regressions are never an option.",
+      about_p3: "Trilingual (French, English, Arabic), I work seamlessly with distributed global teams with clarity and technical precision.",
+      faq_tag: "FAQ",
+      faq_heading: "Frequently Asked Questions",
+      faq_sub: "Everything you need to know before initiating a smooth and productive partnership.",
+      contact_tag: "Direct Reach",
+      contact_heading: "Let's discuss your next engineering milestone",
+      contact_sub: "Receive a tailored technical response and advisory review within 24 business hours.",
+      form_title: "Contact & Quote Request Form"
+    },
+    ar: {
+      hero_status: "متاح للمشاريع الهندسية والاستشارية الجديدة",
+      hero_title_1: "تطبيقات برمجية فائقة القوة، ",
+      hero_title_2: "تُسلَّم بوتيرة أسرع.",
+      hero_subtitle: "استشارات في هندسة البرمجيات، وتطوير Full Stack متكامل، وهندسة DevOps السحابية. تميز تقني مباشر يقوده مهندس خبير ومسرَّع بأحدث أدوات الذكاء الاصطناعي.",
+      cta_quote: "طلب عرض سعر",
+      cta_discover: "استعراض الخدمات",
+      metric_1: "١٠٠٪ منجز بواسطة مهندس أول متمرس (بدون وسطاء)",
+      metric_2: "٣ لغات عمل مرنة (الفرنسية · الإنجليزية · العربية)",
+      metric_3: "بيئة سحابية حديثة وبنية معمارية قابلة للتوسع",
+      services_tag: "مجالات التدخل",
+      services_heading: "الركائز الهندسية الأساسية",
+      services_sub: "حلول تقنية دقيقة لتطوير منصات برمجية موثوقة وعالية الكفاءة.",
+      srv1_title: "تطوير برمجيات Full Stack مخصص",
+      srv1_desc: "تطبيقات ويب متقدمة، ومنصات SaaS، وبوابات مستخدمين ذات جاهزية قصوى وأنظمة رقمية حرجة.",
+      srv2_title: "هندسة DevOps وأتمتة النشر CI/CD",
+      srv2_desc: "نشر برمجي مؤتمت عالي التردد، وحاويات برمجية معزولة، وبنية تحتية مشفرة ومؤمنة دون توقف الخدمة.",
+      srv3_title: "تحديث وتطوير الأنظمة Legacy",
+      srv3_desc: "معالجة الدين التقني، وتفكيك الأنظمة القديمة إلى خدمات مصغرة سحابية، وتحسين فائق للأداء وسرعة الاستجابة.",
+      srv4_title: "الذكاء الاصطناعي والأتمتة التطبيقية",
+      srv4_desc: "دمج الذكاء الاصطناعي التوليدي في بيئات العمل وتطوير وكلاء أذكياء ومنظومات RAG آمنة.",
+      methode_tag: "منهجية العمل",
+      methode_heading: "خمس خطوات واضحة وشفافة",
+      methode_sub: "من التدقيق الأولي إلى التسليم الكامل ونقل المعرفة مع مخرجات واضحة في كل مرحلة.",
+      step1_title: "١. التدقيق والتشخيص",
+      step1_desc: "تحليل دقيق للشفرة البرمجية، ورسم خرائط البنية التحتية، وتحديد الأولويات التقنية.",
+      step2_title: "٢. التصميم والهندسة المعمارية",
+      step2_desc: "اختيار التقنيات المستدامة وتحديد مواصفات واجهات البرمجة وقواعد البيانات والأمن السيبراني.",
+      step3_title: "٣. التطوير والتكامل المستمر",
+      step3_desc: "فترات تطوير رشيقة وسريعة، مع اختبارات آلية ومراجعة دقيقة للشفرة البرمجية.",
+      step4_title: "٤. المرافقة ونقل المعرفة",
+      step4_desc: "توثيق شامل وتدريب لفرق العمل لضمان استقلالية تشغيل النظام بالكامل.",
+      step5_title: "٥. التحديث والمتابعة المستمرة",
+      step5_desc: "مراقبة مستمرة للأداء وتحديثات أمنية واستباق لارتفاع أعداد المستخدمين.",
+      why_tag: "القيمة المضافة",
+      why_heading: "لماذا تختار EJ Tech ؟",
+      why_sub: "الجمع بين الصرامة الهندسية في الأنظمة الحرجة والسرعة الفائقة المدعومة بأحدث أدوات الذكاء الاصطناعي.",
+      adv1_title: "خبرة شاملة من البداية للنهاية",
+      adv1_desc: "من تصميم البنية المعمارية إلى كتابة الشفرة والمراقبة الحية في بيئة الإنتاج.",
+      adv2_title: "ذكاء اصطناعي يعزز الدقة",
+      adv2_desc: "مضاعفة سرعة الإنجاز عبر أدوات ذكية موثوقة ومفحوصة بخبرة هندسية دقيقة.",
+      adv3_title: "تواصل مباشر وبدون وسطاء",
+      adv3_desc: "أشرف بنفسي وأنفذ ١٠٠٪ من المشروع مع التزام صارم بالمواعيد والتسليم.",
+      adv4_title: "خبرة في القطاعات الحساسة",
+      adv4_desc: "خبرة في قطاعات الطاقة والصحة الرقمية مع مرونة لغوية وتواصل دولي متقن.",
+      targets_tag: "الفئات المستهدفة",
+      targets_heading: "لمن نوجه خدماتنا ؟",
+      targets_sub: "حلول موجهة للشركات الناشئة والمؤسسات المتوسطة والكبرى التي تبحث عن الجودة الفائقة.",
+      tech_tag: "الحزمة البرمجية",
+      tech_heading: "التقنيات المعتمدة والأنظمة",
+      tech_sub: "أدوات برمجية مجربة ومستقرة ومختارة لأدائها العالي وقابليتها للصيانة.",
+      pricing_tag: "نماذج التعاقد",
+      pricing_heading: "صيغ مرنة تناسب أهدافكم",
+      pricing_sub: "شفافية مطلقة بدون غموض لتلبية كافة احتياجات المشاريع.",
+      about_tag: "المؤسس",
+      about_heading: "حرفية هندسية مكرسة لتحقيق أهدافكم",
+      about_p1: "مهندس متخصص في هندسة البرمجيات مع خبرة واسعة في الأنظمة المعقدة. أسست EJ Tech لتقديم حلول تقنية مباشرة وذات جودة استثنائية.",
+      about_p2: "شاركت في مشاريع تقنية بالغة الحساسية في مجالي الطاقة والصحة حيث الاستقرار والأمان أمران لا يقبلان المساومة.",
+      about_p3: "متحدث بثلاث لغات (العربية، الفرنسية، الإنجليزية)، وأعمل بسلاسة مع فرق العمل المحلية والدولية.",
+      faq_tag: "الأسئلة الشائعة",
+      faq_heading: "إجابات على استفساراتكم",
+      faq_sub: "كل ما تحتاج معرفته لبدء شراكة ناجحة ومثمرة.",
+      contact_tag: "تواصل مباشر",
+      contact_heading: "دعنا نتناقش حول مشروعكم القادم",
+      contact_sub: "ستتلقى رداً مفصلاً ورأياً تقنياً خلال ٢٤ ساعة عمل.",
+      form_title: "استمارة التواصل وطلب عرض السعر"
+    }
+  };
+
+  // Live Language Switcher Function
+  function setLanguage(lang) {
+    const isRtl = lang === 'ar';
+    document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
+    document.documentElement.lang = lang;
+
+    const dict = translations[lang] || translations.fr;
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (dict[key]) {
+        el.textContent = dict[key];
+      }
+    });
+  }
+
+  // Hook Shell Language Buttons if present
+  window.addEventListener('DOMContentLoaded', () => {
+    const langButtons = document.querySelectorAll('header button');
+    langButtons.forEach(btn => {
+      const text = btn.textContent.trim().toUpperCase();
+      if (text === 'FR') {
+        btn.addEventListener('click', () => setLanguage('fr'));
+      } else if (text === 'EN') {
+        btn.addEventListener('click', () => setLanguage('en'));
+      } else if (text === 'AR') {
+        btn.addEventListener('click', () => setLanguage('ar'));
+      }
+    });
+  });
+</script></main><aside class="fixed bottom-space-lg right-space-lg z-40"><a aria-label="Prendre rendez-vous Calendly" class="flex items-center gap-space-sm bg-tertiary-container hover:bg-tertiary text-on-tertiary px-space-lg py-space-md rounded-full shadow-[0_12px_28px_-6px_rgba(23,55,107,0.18),0_4px_12px_-2px_rgba(23,55,107,0.08)] transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-on-tertiary-container group" data-path="rendez-vous" href="#calendly"><span class="material-symbols-outlined text-on-tertiary group-hover:rotate-12 transition-transform">calendar_month</span><span class="font-label-md text-label-md text-on-tertiary hidden md:inline-block font-semibold">Prendre RDV</span></a></aside><footer class="w-full bg-surface-container-low text-on-surface mt-space-3xl"><div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-3xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-desktop"><div class="lg:col-span-5 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo EJ Tech" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WxdZAgwJbs4crpXXQuzhMtzc5NN2Iw0_sx-2UBzsJR_EFGIst1GYfHY23Bmy6b_DaGseWOmD61GL_n7eNe6JwgCkCyTZTcwY2GdIG5g1rhVN126wm0wITWUDD26d4X5ZYFHCMEA4AFiE7YdTKY-v0b6cjJ6UsXNnmQdDJ5-Ltz3uzLAvrRRjMyehyZYmD86WiczslCUnBtfIj9uSDAk-nOIFbWDg3W95oYJaTyfM9IAtbSU6RV8KkSCg7X"/><span class="font-headline-sm text-headline-sm text-primary">EJ Tech</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Cabinet de conseil et d'ingénierie logicielle de haute précision. Conception d'architectures scalables, modernisation de systèmes critiques et pilotage technique pour décideurs exigeants.</p><div class="flex items-center gap-space-md pt-space-xs"><a class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)]" href="https://www.linkedin.com/in/anouar-elgid-3384811b5/" rel="noopener noreferrer" target="_blank" title="LinkedIn"><span class="material-symbols-outlined">share</span></a><a class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)]" href="https://github.com" rel="noopener noreferrer" target="_blank" title="GitHub"><span class="material-symbols-outlined">code</span></a><a class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all shadow-[0_2px_8px_-2px_rgba(23,55,107,0.05)]" href="https://www.malt.fr/profile/anouareljid" rel="noopener noreferrer" target="_blank" title="Malt Freelance"><span class="material-symbols-outlined">badge</span></a></div></div><div class="lg:col-span-3 flex flex-col gap-space-md"><span class="font-headline-sm text-headline-sm text-primary">Coordonnées directes</span><ul class="flex flex-col gap-space-sm"><li class="flex items-center gap-space-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary">mail</span><a class="font-body-md text-body-md hover:text-primary transition-colors" href="mailto:anouar.eljid@gmail.com">anouar.eljid@gmail.com</a></li><li class="flex items-center gap-space-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary">call</span><a class="font-body-md text-body-md hover:text-primary transition-colors" href="tel:0617487168">06 17 48 71 68</a></li><li class="flex items-center gap-space-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary">location_on</span><span class="font-body-md text-body-md">Paris &amp; Île-de-France (Mobilité UE)</span></li></ul></div><div class="lg:col-span-4 flex flex-col gap-space-md"><span class="font-headline-sm text-headline-sm text-primary">Périmètre d'intervention</span><div class="flex flex-wrap gap-space-xs"><span class="bg-surface-container-lowest text-secondary font-label-sm text-label-sm px-space-sm py-space-xs rounded-full shadow-[0_1px_3px_rgba(23,55,107,0.03)]">Cloud &amp; DevOps</span><span class="bg-surface-container-lowest text-secondary font-label-sm text-label-sm px-space-sm py-space-xs rounded-full shadow-[0_1px_3px_rgba(23,55,107,0.03)]">Architecture Logicielle</span><span class="bg-surface-container-lowest text-secondary font-label-sm text-label-sm px-space-sm py-space-xs rounded-full shadow-[0_1px_3px_rgba(23,55,107,0.03)]">Refonte SI Legacy</span><span class="bg-surface-container-lowest text-secondary font-label-sm text-label-sm px-space-sm py-space-xs rounded-full shadow-[0_1px_3px_rgba(23,55,107,0.03)]">Audit de Performance</span><span class="bg-surface-container-lowest text-secondary font-label-sm text-label-sm px-space-sm py-space-xs rounded-full shadow-[0_1px_3px_rgba(23,55,107,0.03)]">Lead Tech &amp; ESN Delivery</span></div></div></div><div class="mt-space-2xl pt-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-xs"><span>© 2026 EJ Tech. Tous droits réservés.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" data-path="mentions-legales" href="#mentions-legales">Mentions légales</a><a class="hover:text-primary transition-colors" data-path="politique-de-confidentialite" href="#politique-confidentialite">Politique RGPD</a><a class="hover:text-primary transition-colors" data-path="conditions-generales" href="#cgv">CGV &amp; Prestations</a></div></div></div></footer></body></html>
